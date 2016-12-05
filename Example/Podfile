@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GameSimplicity_Example' do
+  pod 'GameSimplicity', :path => '../'
+
+  target 'GameSimplicity_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
