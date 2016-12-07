@@ -13,7 +13,7 @@ public protocol GSManagedTickEventReceiver {
 }
 
 func ===(this: GSManagedTickEventReceiver, that: GSManagedTickEventReceiver) -> Bool {
-    return (this as! AnyObject) === (that as! AnyObject)
+    return (this as AnyObject) === (that as AnyObject)
 }
 
 public class GSTickEventManager {

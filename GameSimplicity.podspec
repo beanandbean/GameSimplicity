@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GameSimplicity'
   s.version          = '0.0.1'
-  s.summary          = 'GameSimplicity'
+  s.summary          = 'GameSimplicity, a simple iOS game builder'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-GameSimplicity.
+GameSimplicity, a simple iOS game builder that let you create a mini-game from scratch at publish-standard with just a few lines of code.
                        DESC
 
   s.homepage         = 'https://github.com/beanandbean/GameSimplicity'
