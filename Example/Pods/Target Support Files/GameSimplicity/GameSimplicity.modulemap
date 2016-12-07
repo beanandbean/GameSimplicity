@@ -1,0 +1,6 @@
+framework module GameSimplicity {
+  umbrella header "GameSimplicity-umbrella.h"
+
+  export *
+  module * { export * }
+}

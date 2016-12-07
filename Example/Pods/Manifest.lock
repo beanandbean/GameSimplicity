@@ -1,0 +1,16 @@
+PODS:
+  - GameSimplicity (0.1.0)
+
+DEPENDENCIES:
+  - GameSimplicity (from `../`)
+
+EXTERNAL SOURCES:
+  GameSimplicity:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GameSimplicity: f909b715c556b93713879990858097332ac71b74
+
+PODFILE CHECKSUM: db53c93d106dc6a2d6fa6042af148b3eb8dd03ce
+
+COCOAPODS: 1.0.1

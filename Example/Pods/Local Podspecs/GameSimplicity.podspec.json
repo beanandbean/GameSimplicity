@@ -1,0 +1,22 @@
+{
+  "name": "GameSimplicity",
+  "version": "0.1.0",
+  "summary": "A short description of GameSimplicity.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GameSimplicity",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "beanandbean": "wangsw.a@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GameSimplicity.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GameSimplicity/Classes/**/*"
+}
