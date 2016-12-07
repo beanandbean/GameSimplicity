@@ -17,7 +17,7 @@ GameSimplicity is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "GameSimplicity"
+pod "GameSimplicity", :git => "https://github.com/beanandbean/GameSimplicity.git"
 ```
 
 ## Author

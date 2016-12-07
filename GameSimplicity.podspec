@@ -24,7 +24,10 @@ GameSimplicity, a simple iOS game builder that let you create a mini-game from s
   s.homepage         = 'https://github.com/beanandbean/GameSimplicity'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'beanandbean' => 'wangsw.a@gmail.com' }
-  s.source           = { :git => 'https://github.com/beanandbean/GameSimplicity.git', :tag => s.version.to_s }
+
+  # FOR RELEASE
+  # s.source = { :git => 'https://github.com/beanandbean/GameSimplicity.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/beanandbean/GameSimplicity.git', :branch => 'master' }
 
   s.ios.deployment_target = '8.0'
 

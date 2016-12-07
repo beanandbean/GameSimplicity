@@ -1,9 +1,9 @@
 {
   "name": "GameSimplicity",
-  "version": "0.1.0",
-  "summary": "A short description of GameSimplicity.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/GameSimplicity",
+  "version": "0.0.1",
+  "summary": "GameSimplicity, a simple iOS game builder",
+  "description": "GameSimplicity, a simple iOS game builder that let you create a mini-game from scratch at publish-standard with just a few lines of code.",
+  "homepage": "https://github.com/beanandbean/GameSimplicity",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "beanandbean": "wangsw.a@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/GameSimplicity.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/beanandbean/GameSimplicity.git",
+    "branch": "master"
   },
   "platforms": {
     "ios": "8.0"
