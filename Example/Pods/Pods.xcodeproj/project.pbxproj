@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15375BD915F20E235A385134B6E11D95 /* GSListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2449FEED95A15569A05478E74EF02 /* GSListener.swift */; };
-		1AEF4DD4B25FC2EF9AF71DCE54866BEF /* GSPhysicalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97F8005E69A366CFBBDE64792417717 /* GSPhysicalAnimator.swift */; };
-		1F1860C41318D2306CB681F7A25B49E3 /* GSExecute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA2F68DF9519EF44DA04FEB323FB9F /* GSExecute.swift */; };
-		2A5387D1C9BC7A40423749458AD59204 /* GSPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C04A44ABA6C158A3772040905FA74C /* GSPlayground.swift */; };
-		319673838EBBD1D9B52574251AD0F5A9 /* GSDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F424EE377F436DC688FE9B80DC95B75 /* GSDelay.swift */; };
+		15375BD915F20E235A385134B6E11D95 /* GSListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFEADBFD05FE2E66F4384ED601EA786 /* GSListener.swift */; };
+		1AEF4DD4B25FC2EF9AF71DCE54866BEF /* GSPhysicalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8D8ADD69796B0FCE2DE933DCA3CE36 /* GSPhysicalAnimator.swift */; };
+		1F1860C41318D2306CB681F7A25B49E3 /* GSExecute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04BF73ED3F9A493ADEA88E13F9725B /* GSExecute.swift */; };
+		2A5387D1C9BC7A40423749458AD59204 /* GSPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868617C75720A6C3DEF90751D00A75F2 /* GSPlayground.swift */; };
+		319673838EBBD1D9B52574251AD0F5A9 /* GSDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BB8EBCA5B3CEB9B1C8243DBB5F4300 /* GSDelay.swift */; };
 		38AA61B2C4A4D7A27946C68864A3C033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		39D3FD32E946D520475089D49B1CDD3C /* GSAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32946A962577AC6254EB9FD0DEF19E41 /* GSAnimation.swift */; };
+		39D3FD32E946D520475089D49B1CDD3C /* GSAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE1C17764C09908397BFF7CFE58D891 /* GSAnimation.swift */; };
 		3AE640609672B66E5E917F33B45377AA /* Pods-GameSimplicity_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93BC241AAF77B43D66B11417B4E70C6A /* Pods-GameSimplicity_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E08E1B64B40B2FB20271DF3006B24B1 /* GSEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3973316B854C11E3412D0D2404837272 /* GSEllipse.swift */; };
-		4E647A11268AEE117265BACA52E32279 /* GSListenerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136ED46731B80D95EBEC8432928E349C /* GSListenerHandler.swift */; };
-		53E03B37C60287BAD4B524B4281D4899 /* GSShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1469CAF586EE00211FCF96A66E1915CB /* GSShapeView.swift */; };
-		58D91A9E4B4C5F3CB4038DF8DA74BDCC /* GSShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93D1FF2773C08A6D8AB9890DB43C5D1 /* GSShape.swift */; };
+		3E08E1B64B40B2FB20271DF3006B24B1 /* GSEllipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37CD1828DFE0C5D03A983B00963F65 /* GSEllipse.swift */; };
+		4E647A11268AEE117265BACA52E32279 /* GSListenerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0097BCD0FF88E013B28121F14B64018 /* GSListenerHandler.swift */; };
+		53E03B37C60287BAD4B524B4281D4899 /* GSShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80469A31C0F72310A74E39280C31478 /* GSShapeView.swift */; };
+		58D91A9E4B4C5F3CB4038DF8DA74BDCC /* GSShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFE162ED006AF69DFA565D271640DE /* GSShape.swift */; };
 		61CDDFDC504C072A08615D84D456DA0B /* Pods-GameSimplicity_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2361BFD1489C5432D5C48A79A17A9685 /* Pods-GameSimplicity_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		699C0AEB39BC6FFD84CF5541E99BD514 /* GSEntranceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC10E50BA344176751D6801F88A92BA2 /* GSEntranceMonitor.swift */; };
-		6AF4CE2B4F39641B47BD6D34E33E78B2 /* GSSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC000FC090CADD0AA3A3CC2618EFF34E /* GSSprite.swift */; };
+		699C0AEB39BC6FFD84CF5541E99BD514 /* GSEntranceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC043A72E43E5C624580CDB85D19FE4 /* GSEntranceMonitor.swift */; };
+		6AF4CE2B4F39641B47BD6D34E33E78B2 /* GSSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89F81164ACC244653528A3E28E9593 /* GSSprite.swift */; };
 		78F49C84EA07EAD4FE428AE8A15C0EF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7E4B6D994310FF9C4AA8A8F7B157EB61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7EC82FF063B3BF7EC37C7579165CB483 /* GameSimplicity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D99B31DF6763596767FCFAA084111 /* GameSimplicity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8098B72D71E9495958491153DC4CF048 /* Pods-GameSimplicity_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F1D2D96B8BD56BEEFE0D2EE70869D2 /* Pods-GameSimplicity_Example-dummy.m */; };
 		9AFEF0B0202131C2F54ACB358CA68179 /* Pods-GameSimplicity_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E63D7364FC50617314FA0BAC6FCA817C /* Pods-GameSimplicity_Tests-dummy.m */; };
-		BBC4AB05367AFD9D285DA5C886C77234 /* GSAttributeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754271AB92F6FBF4407CF6A210CA466 /* GSAttributeAnimation.swift */; };
-		BC8EAB4E5396D91AC6D327E19283273D /* GSSequenceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AD13CB94271490C28E5463A71D87CB /* GSSequenceAnimation.swift */; };
-		C238531D9A7BB511F945FEBB83A50C2A /* GSTickEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D90DF3DD681C679EE8221C63EC6D0 /* GSTickEventManager.swift */; };
-		DC5B3BDD18F787DB02D0CD23FDE5B8FE /* GSRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BCC1858515A23DDA38A5506AAF0812 /* GSRectangle.swift */; };
+		BBC4AB05367AFD9D285DA5C886C77234 /* GSAttributeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA3ED0D37F9585F4DD40DDDAA8EC406 /* GSAttributeAnimation.swift */; };
+		BC8EAB4E5396D91AC6D327E19283273D /* GSSequenceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A5BC43CBA78FD6B1B1B1CCBDB9A2C /* GSSequenceAnimation.swift */; };
+		C238531D9A7BB511F945FEBB83A50C2A /* GSTickEventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F001C03D3EF1A8B447CC9A8AF83BC /* GSTickEventManager.swift */; };
+		DC5B3BDD18F787DB02D0CD23FDE5B8FE /* GSRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7166506F7B58BF32D7E4AFF6D8DBF33A /* GSRectangle.swift */; };
 		EB1345423B5F78CF10B5FEB3C227ED1E /* GameSimplicity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 030BBCC24135DC934AF21D4C59FC11A6 /* GameSimplicity-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -46,52 +46,52 @@
 
 /* Begin PBXFileReference section */
 		030BBCC24135DC934AF21D4C59FC11A6 /* GameSimplicity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GameSimplicity-dummy.m"; sourceTree = "<group>"; };
-		0EE2449FEED95A15569A05478E74EF02 /* GSListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSListener.swift; sourceTree = "<group>"; };
-		136ED46731B80D95EBEC8432928E349C /* GSListenerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSListenerHandler.swift; sourceTree = "<group>"; };
-		1469CAF586EE00211FCF96A66E1915CB /* GSShapeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSShapeView.swift; sourceTree = "<group>"; };
+		0CE1C17764C09908397BFF7CFE58D891 /* GSAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSAnimation.swift; sourceTree = "<group>"; };
 		187A6A2100CECDCD27A4EB0BB2D12679 /* Pods-GameSimplicity_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSimplicity_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1B793134496611F6E3864DF66859EF94 /* GameSimplicity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GameSimplicity.modulemap; sourceTree = "<group>"; };
 		2361BFD1489C5432D5C48A79A17A9685 /* Pods-GameSimplicity_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameSimplicity_Example-umbrella.h"; sourceTree = "<group>"; };
 		268831F499C0633CEFBE9EB6A9E47430 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E15F76B85912714983BE08DC6D8095 /* GameSimplicity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GameSimplicity.xcconfig; sourceTree = "<group>"; };
-		2754271AB92F6FBF4407CF6A210CA466 /* GSAttributeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSAttributeAnimation.swift; sourceTree = "<group>"; };
+		280A5BC43CBA78FD6B1B1B1CCBDB9A2C /* GSSequenceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSSequenceAnimation.swift; sourceTree = "<group>"; };
 		2FED3C03048FBA3D789D679224538197 /* GameSimplicity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameSimplicity-prefix.pch"; sourceTree = "<group>"; };
 		324554E19BB894C45CBE7EB270C2D853 /* Pods-GameSimplicity_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSimplicity_Example-resources.sh"; sourceTree = "<group>"; };
-		32946A962577AC6254EB9FD0DEF19E41 /* GSAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSAnimation.swift; sourceTree = "<group>"; };
-		3973316B854C11E3412D0D2404837272 /* GSEllipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSEllipse.swift; sourceTree = "<group>"; };
+		3B8D8ADD69796B0FCE2DE933DCA3CE36 /* GSPhysicalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSPhysicalAnimator.swift; sourceTree = "<group>"; };
 		3C854C80A5E8778AE90416BE08AD8EA3 /* Pods-GameSimplicity_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GameSimplicity_Tests.modulemap"; sourceTree = "<group>"; };
+		3DC043A72E43E5C624580CDB85D19FE4 /* GSEntranceMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSEntranceMonitor.swift; sourceTree = "<group>"; };
 		446AFE454D61E6BA5595E4E5813537B9 /* Pods-GameSimplicity_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSimplicity_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DCA2F68DF9519EF44DA04FEB323FB9F /* GSExecute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSExecute.swift; sourceTree = "<group>"; };
+		554F001C03D3EF1A8B447CC9A8AF83BC /* GSTickEventManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSTickEventManager.swift; sourceTree = "<group>"; };
 		5B2F2CAEA9C15045F2033AED8ED97170 /* Pods_GameSimplicity_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GameSimplicity_Example.framework; path = "Pods-GameSimplicity_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D03F73D1330A5AB7AAF76EB44B6ABCE /* Pods-GameSimplicity_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameSimplicity_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61BFE162ED006AF69DFA565D271640DE /* GSShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSShape.swift; sourceTree = "<group>"; };
 		66F1D2D96B8BD56BEEFE0D2EE70869D2 /* Pods-GameSimplicity_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameSimplicity_Example-dummy.m"; sourceTree = "<group>"; };
-		68BCC1858515A23DDA38A5506AAF0812 /* GSRectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSRectangle.swift; sourceTree = "<group>"; };
+		6FA3ED0D37F9585F4DD40DDDAA8EC406 /* GSAttributeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSAttributeAnimation.swift; sourceTree = "<group>"; };
+		7166506F7B58BF32D7E4AFF6D8DBF33A /* GSRectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSRectangle.swift; sourceTree = "<group>"; };
+		7EFEADBFD05FE2E66F4384ED601EA786 /* GSListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSListener.swift; sourceTree = "<group>"; };
 		81111CF029C0FFD7A474EB086EF164DA /* GameSimplicity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GameSimplicity.framework; path = GameSimplicity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85AD13CB94271490C28E5463A71D87CB /* GSSequenceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSSequenceAnimation.swift; sourceTree = "<group>"; };
+		85BB8EBCA5B3CEB9B1C8243DBB5F4300 /* GSDelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSDelay.swift; sourceTree = "<group>"; };
 		85E075C7C609F57E801287F606BD93D0 /* Pods-GameSimplicity_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GameSimplicity_Example.modulemap"; sourceTree = "<group>"; };
+		868617C75720A6C3DEF90751D00A75F2 /* GSPlayground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSPlayground.swift; sourceTree = "<group>"; };
 		8A174CB781CCC95A10300CDEC47EB241 /* Pods-GameSimplicity_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSimplicity_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8F424EE377F436DC688FE9B80DC95B75 /* GSDelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSDelay.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BC241AAF77B43D66B11417B4E70C6A /* Pods-GameSimplicity_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameSimplicity_Tests-umbrella.h"; sourceTree = "<group>"; };
 		989FA261C2F81C395E1ECCE82AE54CFA /* Pods-GameSimplicity_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameSimplicity_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A5B24B529FF6394E8F2AE1201897AD50 /* Pods-GameSimplicity_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSimplicity_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC000FC090CADD0AA3A3CC2618EFF34E /* GSSprite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSSprite.swift; sourceTree = "<group>"; };
+		A80469A31C0F72310A74E39280C31478 /* GSShapeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSShapeView.swift; sourceTree = "<group>"; };
 		AFDCC28FA9F8B0ACDEFCC007A5997CE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B003B35F4FE0671D5611F71874471EB6 /* Pods-GameSimplicity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSimplicity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BC7D99B31DF6763596767FCFAA084111 /* GameSimplicity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GameSimplicity-umbrella.h"; sourceTree = "<group>"; };
 		BEFA133A2BBAD207ECC856B86BCFD43A /* Pods-GameSimplicity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameSimplicity_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C93D1FF2773C08A6D8AB9890DB43C5D1 /* GSShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSShape.swift; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0BC64B444A39BB9CFC0689D1E643593 /* Pods_GameSimplicity_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GameSimplicity_Tests.framework; path = "Pods-GameSimplicity_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16457A0E46C4447A2FDDC610AB6415A /* Pods-GameSimplicity_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameSimplicity_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7C73A4C6322E81E0747AFAACBC9D0DF /* Pods-GameSimplicity_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GameSimplicity_Tests-resources.sh"; sourceTree = "<group>"; };
-		D97F8005E69A366CFBBDE64792417717 /* GSPhysicalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSPhysicalAnimator.swift; sourceTree = "<group>"; };
-		D9C04A44ABA6C158A3772040905FA74C /* GSPlayground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSPlayground.swift; sourceTree = "<group>"; };
+		E0097BCD0FF88E013B28121F14B64018 /* GSListenerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSListenerHandler.swift; sourceTree = "<group>"; };
 		E63D7364FC50617314FA0BAC6FCA817C /* Pods-GameSimplicity_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameSimplicity_Tests-dummy.m"; sourceTree = "<group>"; };
 		E9493D0C31CBBDB1A96851E219C3C294 /* Pods-GameSimplicity_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameSimplicity_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC10E50BA344176751D6801F88A92BA2 /* GSEntranceMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSEntranceMonitor.swift; sourceTree = "<group>"; };
+		EC04BF73ED3F9A493ADEA88E13F9725B /* GSExecute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSExecute.swift; sourceTree = "<group>"; };
+		EE37CD1828DFE0C5D03A983B00963F65 /* GSEllipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSEllipse.swift; sourceTree = "<group>"; };
+		EF89F81164ACC244653528A3E28E9593 /* GSSprite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSSprite.swift; sourceTree = "<group>"; };
 		F9988F5B9EF7369F784644003CC4AF2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF4D90DF3DD681C679EE8221C63EC6D0 /* GSTickEventManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GSTickEventManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +130,18 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		1ED4A373CB838EEF3DB08D424368A688 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				EE37CD1828DFE0C5D03A983B00963F65 /* GSEllipse.swift */,
+				7166506F7B58BF32D7E4AFF6D8DBF33A /* GSRectangle.swift */,
+				61BFE162ED006AF69DFA565D271640DE /* GSShape.swift */,
+				EF89F81164ACC244653528A3E28E9593 /* GSSprite.swift */,
+			);
+			name = Sprites;
+			path = Sprites;
+			sourceTree = "<group>";
+		};
 		2677CD101729267F4CEAD98C36EBA8E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,30 +150,6 @@
 				D0BC64B444A39BB9CFC0689D1E643593 /* Pods_GameSimplicity_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3DF114C076EB3591073A4ABEF62C544E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				32946A962577AC6254EB9FD0DEF19E41 /* GSAnimation.swift */,
-				2754271AB92F6FBF4407CF6A210CA466 /* GSAttributeAnimation.swift */,
-				8F424EE377F436DC688FE9B80DC95B75 /* GSDelay.swift */,
-				3973316B854C11E3412D0D2404837272 /* GSEllipse.swift */,
-				EC10E50BA344176751D6801F88A92BA2 /* GSEntranceMonitor.swift */,
-				4DCA2F68DF9519EF44DA04FEB323FB9F /* GSExecute.swift */,
-				0EE2449FEED95A15569A05478E74EF02 /* GSListener.swift */,
-				136ED46731B80D95EBEC8432928E349C /* GSListenerHandler.swift */,
-				D97F8005E69A366CFBBDE64792417717 /* GSPhysicalAnimator.swift */,
-				D9C04A44ABA6C158A3772040905FA74C /* GSPlayground.swift */,
-				68BCC1858515A23DDA38A5506AAF0812 /* GSRectangle.swift */,
-				85AD13CB94271490C28E5463A71D87CB /* GSSequenceAnimation.swift */,
-				C93D1FF2773C08A6D8AB9890DB43C5D1 /* GSShape.swift */,
-				1469CAF586EE00211FCF96A66E1915CB /* GSShapeView.swift */,
-				AC000FC090CADD0AA3A3CC2618EFF34E /* GSSprite.swift */,
-				FF4D90DF3DD681C679EE8221C63EC6D0 /* GSTickEventManager.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		42F6F0809D1885E1DC4DBED18C432787 /* Support Files */ = {
@@ -178,14 +166,44 @@
 			path = "Example/Pods/Target Support Files/GameSimplicity";
 			sourceTree = "<group>";
 		};
+		4B9D3495886946C5D936C8FAAD5D0D7A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0CE1C17764C09908397BFF7CFE58D891 /* GSAnimation.swift */,
+				6FA3ED0D37F9585F4DD40DDDAA8EC406 /* GSAttributeAnimation.swift */,
+				85BB8EBCA5B3CEB9B1C8243DBB5F4300 /* GSDelay.swift */,
+				EC04BF73ED3F9A493ADEA88E13F9725B /* GSExecute.swift */,
+				280A5BC43CBA78FD6B1B1B1CCBDB9A2C /* GSSequenceAnimation.swift */,
+			);
+			name = Animations;
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		53FD952C24D163BC064780E1BCBA5B22 /* GameSimplicity */ = {
 			isa = PBXGroup;
 			children = (
-				85E85357311A7ECCB374ACFAA0EF359F /* GameSimplicity */,
+				CBBEE65FA2AB8E65069A40F182F296D0 /* GameSimplicity */,
 				42F6F0809D1885E1DC4DBED18C432787 /* Support Files */,
 			);
 			name = GameSimplicity;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		64462476E6F003758A87057504ACCC3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DC043A72E43E5C624580CDB85D19FE4 /* GSEntranceMonitor.swift */,
+				7EFEADBFD05FE2E66F4384ED601EA786 /* GSListener.swift */,
+				E0097BCD0FF88E013B28121F14B64018 /* GSListenerHandler.swift */,
+				3B8D8ADD69796B0FCE2DE933DCA3CE36 /* GSPhysicalAnimator.swift */,
+				868617C75720A6C3DEF90751D00A75F2 /* GSPlayground.swift */,
+				A80469A31C0F72310A74E39280C31478 /* GSShapeView.swift */,
+				554F001C03D3EF1A8B447CC9A8AF83BC /* GSTickEventManager.swift */,
+				4B9D3495886946C5D936C8FAAD5D0D7A /* Animations */,
+				1ED4A373CB838EEF3DB08D424368A688 /* Sprites */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -207,15 +225,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		85E85357311A7ECCB374ACFAA0EF359F /* GameSimplicity */ = {
-			isa = PBXGroup;
-			children = (
-				3DF114C076EB3591073A4ABEF62C544E /* Classes */,
-			);
-			name = GameSimplicity;
-			path = GameSimplicity;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +240,15 @@
 				CF8F169E1B3F0D6ADB16D48AB68C367C /* Pods-GameSimplicity_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CBBEE65FA2AB8E65069A40F182F296D0 /* GameSimplicity */ = {
+			isa = PBXGroup;
+			children = (
+				64462476E6F003758A87057504ACCC3B /* Classes */,
+			);
+			name = GameSimplicity;
+			path = GameSimplicity;
 			sourceTree = "<group>";
 		};
 		CF8F169E1B3F0D6ADB16D48AB68C367C /* Pods-GameSimplicity_Tests */ = {
