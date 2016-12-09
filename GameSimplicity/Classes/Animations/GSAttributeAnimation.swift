@@ -8,10 +8,11 @@
 
 public enum GSAnimationAttribute: String {
     case x = "x", y = "y", scaleX = "scaleX", scaleY = "scaleY", rotation = "rotation"
-    case alpha = "alpha"
     case width = "width", height = "height"
     case cornerRadius = "cornerRadius", cornerWidth = "cornerWidth", cornerHeight = "cornerHeight"
     case radius = "radius", horizontalRadius = "horizontalRadius", verticalRadius = "verticalRadius"
+    case red = "red", blue = "blue", green = "green", hue = "hue", saturation = "saturation", brightness = "brightness"
+    case alpha = "alpha"
 }
 
 public final class GSAttributeAnimation: GSAnimation, GSManagedTickEventReceiver {

@@ -48,12 +48,12 @@ class ViewController: UIViewController {
             GSExecute(block: {
                 GSAttributeAnimation(onSprite: centerRect, byAttributes: [.alpha: -0.5], duration: 1).execute()
             }),
-            GSAttributeAnimation(onSprite: centerRect, byAttributes: [.cornerRadius: 5], duration: 1),
+            GSAttributeAnimation(onSprite: centerRect, byAttributes: [.cornerRadius: 2.5], duration: 1),
             centerSeqChangeColor,
             GSExecute(block: {
                 GSAttributeAnimation(onSprite: centerRect, byAttributes: [.alpha: 0.5], duration: 1).execute()
             }),
-            GSAttributeAnimation(onSprite: centerRect, byAttributes: [.cornerRadius: -5], duration: 1),
+            GSAttributeAnimation(onSprite: centerRect, byAttributes: [.cornerRadius: -2.5], duration: 1),
             centerSeqChangeColor.copy()])
         centerSeqAnimation.on(.completion) { centerSeqAnimation.execute() }
         centerSeqAnimation.execute()
@@ -87,7 +87,6 @@ class ViewController: UIViewController {
             rect.alpha = 0.5
             rect.anchor = playground.center
             rect.rotation = CGFloat.pi * 2 * CGFloat(index) / CGFloat(numRects)
-            rect.physicalAnimator.updateSpeed(byAttributes: [.rotation: CGFloat.pi / 5])
             playground.add(sprite: rect)
             
             rect.on(.tap) {
@@ -104,11 +103,23 @@ class ViewController: UIViewController {
         seqAnimation.on(.completion) { seqAnimation.execute() }
         seqAnimation.execute()
         
-        let ball = GSEllipse(center: playground.center, horizontalRadius: 2, verticalRadius: 1.5, color: .white)
+        let frameAnimation = GSFrameAnimation(frames: 20, framesPerSecond: 2) { (index) in
+            for (rectIndex, rect) in rects.enumerated() {
+                rect.rotation = CGFloat.pi * 2 * CGFloat(rectIndex) / CGFloat(numRects) + CGFloat.pi / 10 * CGFloat(index)
+            }
+        }
+        frameAnimation.on(.completion) { frameAnimation.execute() }
+        frameAnimation.execute()
+        
+        let ball = GSEllipse(center: playground.center, horizontalRadius: 2, verticalRadius: 1.5, color: UIColor(hue: 0.0, saturation: 1.0, brightness: 1.0, alpha: 1.0))
         ball.userInteractionEnabled = false
         ball.physicalAnimator.updateSpeed(byAttributes: [.y: -12])
         ball.physicalAnimator.updateAcceleration(byAttributes: [.y: 4])
         playground.add(sprite: ball)
+        
+        let ballColorAnimation = GSAttributeAnimation(onSprite: ball, byAttributes: [.hue: 1], duration: 2)
+        ballColorAnimation.on(.completion) { ballColorAnimation.execute() }
+        ballColorAnimation.execute()
         
         let ballMonitor = GSEntranceMonitor { ball.translateY >= playground.centerY }
         ballMonitor.on(.enterState) {

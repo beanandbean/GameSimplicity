@@ -1,5 +1,5 @@
 PODS:
-  - GameSimplicity (0.0.1)
+  - GameSimplicity (0.0.2)
 
 DEPENDENCIES:
   - GameSimplicity (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GameSimplicity: ee3158a7496b06a7719db6ecc026705067438c87
+  GameSimplicity: 2ad1808f0a93188c9db8ea7b4185baf0c64016da
 
 PODFILE CHECKSUM: 375a357be1b45befa6368a288b071e83e2e265b6
 

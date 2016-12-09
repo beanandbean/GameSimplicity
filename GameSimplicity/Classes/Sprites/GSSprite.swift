@@ -40,7 +40,7 @@ public class GSSprite: GSListenerHandler<GSSpriteEvent> {
     
     public var rotation: CGFloat = 0.0 {
         didSet {
-            rotation -= ceil(rotation / CGFloat.pi / 2) * CGFloat.pi * 2
+            rotation -= floor(rotation / CGFloat.pi / 2) * CGFloat.pi * 2
             updateTranform()
         }
     }
