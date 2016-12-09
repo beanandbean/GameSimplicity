@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/beanandbean/GameSimplicity.git",
-    "branch": "master"
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
